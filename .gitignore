@@ -1,41 +1,58 @@
-# Prerequisites
-*.d
+# ================================================
+# Visual Studio OpenGL Project .gitignore
+# ================================================
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Carpetas de configuración de VS
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
+# Carpetas de compilación
+Debug/
+Release/
+x64/
+x86/
+bin/
+obj/
+ipch/
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Archivos generados
 *.exe
-*.out
-*.app
+*.dll
+*.pdb
+*.ilk
+*.idb
+*.lib
+*.exp
+*.appx
+*.iobj
+*.ipdb
 
-# debug information files
-*.dwo
+# Archivos de dependencias y logs
+*.log
+*.tlog
+*.lastbuildstate
+*.cache
+*.db
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Paquetes y librerías externas (si usas NuGet o vcpkg)
+packages/
+*.nuget.props
+*.nuget.targets
+.vcpkg/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+
+# Archivos de configuración locales (no compartibles)
+*.rsuser
+*.resharper
+*.DotSettings.user
